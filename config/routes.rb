@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   #get 'messages/:id/edit', to: 'messages#edit'
   
   root to: "messages#index"
-  
+
   resources :messages
   
 end
